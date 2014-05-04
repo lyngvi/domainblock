@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Seriously Don't Load Stuff From These Domains",
+	"description": "This plugin prevents loading of any data at all from certain domains.",
+	"version": "1.0",
+	"permissions": [
+		"webRequest", "webRequestBlocking", "<all_urls>"
+	],
+	"background": {
+		"scripts": ["block.js"],
+		"persistent": true
+	}
+}
