@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "RequestBlocker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "This plugin prevents loading of any data at all from certain domains. The list of domains to block is configured in the extension's options.",
 	"author": "Greg Knight",
 	"homepage_url": "https://github.com/lyngvi/domainblock",
