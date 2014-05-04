@@ -15,7 +15,7 @@ window.addEventListener("load", function(ev) {
 		// Save it
 		chrome.storage.sync.set({
 				version: 1,
-				domainList: newList,
+				domainList: out,
 			},
 			function() { // callback
 				status.textContent = 'Options saved.';
