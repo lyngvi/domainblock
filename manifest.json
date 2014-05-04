@@ -3,7 +3,7 @@
 	"name": "RequestBlocker",
 	"version": "1.0.1",
 	"description": "This plugin prevents loading of any data at all from certain domains. The list of domains to block is configured in the extension's options.",
-	"author": "lyngvi",
+	"author": "Greg Knight",
 	"homepage_url": "https://github.com/lyngvi/domainblock",
 	"permissions": [
 		"webRequest", "webRequestBlocking", "storage", "<all_urls>"
